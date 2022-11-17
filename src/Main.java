@@ -41,8 +41,17 @@ public class Main {
 //        Задание 2.
         System.out.println();
         System.out.println("    Задание 2");
-        String fullNameUp = fullName.toUpperCase();
-        System.out.println("Данные ФИО сотрудника для заполнения отчёта - " + fullNameUp);
+        fullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчёта - " + fullName);
+
+//        Задание 3.
+        System.out.println();
+        System.out.println("    Задание 3");
+        fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника - " + fullName);
+        System.out.println();
+        System.out.println("    Ну вот и всё на сегодня!");
 
     }
 }
